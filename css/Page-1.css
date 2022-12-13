@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(229, 227, 227);
+    font-family: monospace;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 30px;
+
+}
+
+h1,
+hr {
+    width: 300px;
+}
+
+.wrapper {
+    width: 550px;
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.inputs>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+label,
+input,
+button {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+}
+
+input {
+    padding: 0 10px;
+    outline: none;
+}
+
+a {
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn2{
+    width: 150px;
+    background-color: rgb(13, 176, 24);
+}
+.href{
+    background-color: coral;
+}
